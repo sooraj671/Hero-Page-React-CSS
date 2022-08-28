@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+
+}
+
+.fit-logo{
+    width: 12rem;
+    margin: 20px;
+}
+
+li:hover{
+    color: var(--orange);
+}
+
+
+

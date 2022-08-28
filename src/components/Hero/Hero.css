@@ -1,0 +1,203 @@
+.hero{
+    display: flex;
+}
+
+.hero-l{
+    flex: 3;
+}
+.hero-r{
+    flex: 1;
+}
+
+.the-best-ad{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 4rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    background: #363d42;
+    width: fit-content;
+    padding: 1rem;
+
+    
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+
+.the-best-ad>div{
+    
+    position: absolute;
+    background: orange;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 4rem;
+ 
+    left: 8px;
+    z-index: 1;
+
+}
+
+.hero-text{
+    flex-direction: column;
+    gap: 1rem;
+    margin: 20px;
+    display: flex;
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-overflow: inherit;
+}
+
+.hero-l>p{
+    color: white;
+    margin-left: 20px;
+    font-size: 18px;
+    word-spacing: 5px;
+}
+
+.hero-num{
+    margin: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    
+}
+
+.hero-num>div{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero-num>div :first-child{
+    font-size: 35px;
+    color: white;
+}
+
+.hero-num>div :last-child{
+    font-size: 18px;
+    color: var(--gray);
+}
+
+.hero-btn{
+    display: flex;
+    gap: 1rem;
+    margin: 20px 30px;
+}
+
+.hero-btn>span{
+    border: 1.5px solid orange;
+    color: white;
+    padding: 8px 25px;
+}
+
+.hero-btn :first-child{
+    background: orange;
+}
+
+.calories{
+    position: relative;
+    display: flex;
+    background: #6b6a6afa;
+    width: fit-content;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    bottom: 10rem;
+    left: 45rem;
+    padding: 15px;
+}
+
+.calories>img{
+    width: 4rem;
+    height: 7rem;
+}
+
+.calories>div{
+
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.calories>div :first-child{
+    color: var(--gray);
+    font-size: 20px;
+}
+
+.calories>div :last-child{
+    color: white;
+    font-size: 30px;
+}
+
+.hero-r{
+    background-color: orange;
+    height: 45rem;
+    margin-left: 20px;
+}
+
+.join-btn{
+    position: relative;
+    text-align: center;
+    color: black;
+    border: 1px solid white;
+    background: white;
+    padding: 10px 10px;
+    top: 50px;
+    left: 200px;
+    
+}
+
+.heart{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #363d42;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 8rem;
+    top: 7rem;
+    left: 10rem;
+    justify-content: space-around;
+
+}
+
+.heart>img{
+    width: 2rem;
+}
+
+.heart :nth-child(2){
+    color: var(--gray);
+    font-size: 15px;
+}
+
+.heart :nth-child(3){
+    color: white;
+    font-size: 20px;
+}
+
+.hero-img > .hero{
+    position: relative;
+    width: 350px;
+    right: 10rem;
+    top: 3rem;
+}
+
+.hero-img > .hero-bac{
+    position: relative;
+    width: 300px;
+    right: 15rem;
+    bottom: 40rem;
+    z-index: -1;
+}
